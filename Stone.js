@@ -7,7 +7,7 @@ class Stone{
 	}
 	
 	// assign options to the rubber ball
-		this.body=Bodies.rectangle(x ,y, 30, 30, options);
+		this.body=Bodies.rectangle(x ,y, 45, 45, options);
 		this.width=this.width;
 		this.height=this.height;
 		World.add(world, this.body);
@@ -23,7 +23,7 @@ class Stone{
 			strokeWeight(4);
 			stroke("black");
 			fill("yellow");
-			rect(0,0,this.width,this.height)
+			rect(0,0,45,45)
 			pop();
 	}
 
